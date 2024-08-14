@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          迁移报告
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          迁移报告 - </h1><div id="content"><h2 _locID="OverviewTitle">概述</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">项目</th><th _locID="PathTableHeader">路径</th><th _locID="ErrorsTableHeader">错误</th><th _locID="WarningsTableHeader">警告</th><th _locID="MessagesTableHeader">消息</th></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#pjsua_cli_wp8">pjsua_cli_wp8</a></strong></td><td>pjsip-apps\src\pjsua\winrt\cli\wp8\pjsua_cli_wp8.csproj</td><td class="textCentered"><a href="#pjsua_cli_wp8Error">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#[共享的 MSBuild 项目文件]">[共享的 MSBuild 项目文件]</a></strong></td><td>[共享的 MSBuild 项目文件]</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libbaseclasses">libbaseclasses</a></strong></td><td>third_party\build\baseclasses\libbaseclasses.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libg7221codec">libg7221codec</a></strong></td><td>third_party\build\g7221\libg7221codec.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libgsmcodec">libgsmcodec</a></strong></td><td>third_party\build\gsm\libgsmcodec.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libilbccodec">libilbccodec</a></strong></td><td>third_party\build\ilbc\libilbccodec.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libmilenage">libmilenage</a></strong></td><td>third_party\build\milenage\libmilenage.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libpjproject">libpjproject</a></strong></td><td>pjsip-apps\build\libpjproject.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libresample">libresample</a></strong></td><td>third_party\build\resample\libresample.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libspeex">libspeex</a></strong></td><td>third_party\build\speex\libspeex.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libsrtp">libsrtp</a></strong></td><td>third_party\build\srtp\libsrtp.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libwebrtc">libwebrtc</a></strong></td><td>third_party\build\webrtc\libwebrtc.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#libyuv">libyuv</a></strong></td><td>third_party\build\yuv\libyuv.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjlib">pjlib</a></strong></td><td>pjlib\build\pjlib.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjlib_test">pjlib_test</a></strong></td><td>pjlib\build\pjlib_test.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjlib_util">pjlib_util</a></strong></td><td>pjlib-util\build\pjlib_util.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjlib_util_test">pjlib_util_test</a></strong></td><td>pjlib-util\build\pjlib_util_test.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjmedia">pjmedia</a></strong></td><td>pjmedia\build\pjmedia.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjmedia_audiodev">pjmedia_audiodev</a></strong></td><td>pjmedia\build\pjmedia_audiodev.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjmedia_codec">pjmedia_codec</a></strong></td><td>pjmedia\build\pjmedia_codec.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjmedia_test">pjmedia_test</a></strong></td><td>pjmedia\build\pjmedia_test.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjmedia_videodev">pjmedia_videodev</a></strong></td><td>pjmedia\build\pjmedia_videodev.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjnath">pjnath</a></strong></td><td>pjnath\build\pjnath.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjnath_test">pjnath_test</a></strong></td><td>pjnath\build\pjnath_test.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsip_core">pjsip_core</a></strong></td><td>pjsip\build\pjsip_core.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsip_simple">pjsip_simple</a></strong></td><td>pjsip\build\pjsip_simple.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsip_test">pjsip_test</a></strong></td><td>pjsip\build\pjsip_test.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsip_ua">pjsip_ua</a></strong></td><td>pjsip\build\pjsip_ua.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua">pjsua</a></strong></td><td>pjsip-apps\build\pjsua.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua_cli_shared_comp">pjsua_cli_shared_comp</a></strong></td><td>pjsip-apps\src\pjsua\winrt\cli\comp\pjsua_cli_shared_comp.vcxitems</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua_cli_uwp">pjsua_cli_uwp</a></strong></td><td>pjsip-apps\src\pjsua\winrt\cli\uwp\pjsua_cli_uwp.csproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua_cli_uwp_comp">pjsua_cli_uwp_comp</a></strong></td><td>pjsip-apps\src\pjsua\winrt\cli\comp\pjsua_cli_uwp_comp.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua_cli_wp8_comp">pjsua_cli_wp8_comp</a></strong></td><td>pjsip-apps\src\pjsua\winrt\cli\comp\pjsua_cli_wp8_comp.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua_lib">pjsua_lib</a></strong></td><td>pjsip\build\pjsua_lib.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua_winrt_cli">pjsua_winrt_cli</a></strong></td><td>pjsua_winrt_cli</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua_winrt_gui">pjsua_winrt_gui</a></strong></td><td>pjsua_winrt_gui</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsua2_lib">pjsua2_lib</a></strong></td><td>pjsip\build\pjsua2_lib.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pjsystest">pjsystest</a></strong></td><td>pjsip-apps\build\pjsystest.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#python_pjsua">python_pjsua</a></strong></td><td>pjsip-apps\build\python_pjsua.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#sample_debug">sample_debug</a></strong></td><td>pjsip-apps\build\sample_debug.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#samples">samples</a></strong></td><td>pjsip-apps\build\samples.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Solution Items">Solution Items</a></strong></td><td>Solution Items</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#swig_java_pjsua2">swig_java_pjsua2</a></strong></td><td>pjsip-apps\build\swig_java_pjsua2.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#uwp">uwp</a></strong></td><td>uwp</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Voip">Voip</a></strong></td><td>pjsip-apps\src\pjsua\winrt\gui\uwp\Voip\Voip.csproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#VoipBackEnd">VoipBackEnd</a></strong></td><td>pjsip-apps\src\pjsua\winrt\gui\uwp\VoipBackEnd\VoipBackEnd.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#VoipHost">VoipHost</a></strong></td><td>pjsip-apps\src\pjsua\winrt\gui\uwp\VoipHost\VoipHost.vcxproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#VoipTasks">VoipTasks</a></strong></td><td>pjsip-apps\src\pjsua\winrt\gui\uwp\VoipTasks\VoipTasks.csproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">解决方案</span></a></strong></td><td>pjproject-vs14.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">1</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">解决方案和项目</h2><div id="messages"><a name="pjsua_cli_wp8" /><h3>pjsua_cli_wp8</h3><table><tr id="pjsua_cli_wp8HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClasspjsua_cli_wp8"><td class="IconErrorEncoded"><a name="pjsua_cli_wp8Error" /></td><td class="messageCell"><strong>pjsip-apps\src\pjsua\winrt\cli\wp8\pjsua_cli_wp8.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: http://go.microsoft.com/fwlink/?LinkID=299083&amp;projecttype=C089C8C0-30E0-4E22-80C0-CE093F111A43</span></td></tr></table><a name="[共享的 MSBuild 项目文件]" /><h3>[共享的 MSBuild 项目文件]</h3><table><tr id="[共享的 MSBuild 项目文件]HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">[共享的 MSBuild 项目文件] 未记录任何消息。
+                  </td></tr></table><a name="libbaseclasses" /><h3>libbaseclasses</h3><table><tr id="libbaseclassesHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libbaseclasses 未记录任何消息。
+                  </td></tr></table><a name="libg7221codec" /><h3>libg7221codec</h3><table><tr id="libg7221codecHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libg7221codec 未记录任何消息。
+                  </td></tr></table><a name="libgsmcodec" /><h3>libgsmcodec</h3><table><tr id="libgsmcodecHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libgsmcodec 未记录任何消息。
+                  </td></tr></table><a name="libilbccodec" /><h3>libilbccodec</h3><table><tr id="libilbccodecHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libilbccodec 未记录任何消息。
+                  </td></tr></table><a name="libmilenage" /><h3>libmilenage</h3><table><tr id="libmilenageHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libmilenage 未记录任何消息。
+                  </td></tr></table><a name="libpjproject" /><h3>libpjproject</h3><table><tr id="libpjprojectHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libpjproject 未记录任何消息。
+                  </td></tr></table><a name="libresample" /><h3>libresample</h3><table><tr id="libresampleHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libresample 未记录任何消息。
+                  </td></tr></table><a name="libspeex" /><h3>libspeex</h3><table><tr id="libspeexHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libspeex 未记录任何消息。
+                  </td></tr></table><a name="libsrtp" /><h3>libsrtp</h3><table><tr id="libsrtpHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libsrtp 未记录任何消息。
+                  </td></tr></table><a name="libwebrtc" /><h3>libwebrtc</h3><table><tr id="libwebrtcHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libwebrtc 未记录任何消息。
+                  </td></tr></table><a name="libyuv" /><h3>libyuv</h3><table><tr id="libyuvHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">libyuv 未记录任何消息。
+                  </td></tr></table><a name="pjlib" /><h3>pjlib</h3><table><tr id="pjlibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjlib 未记录任何消息。
+                  </td></tr></table><a name="pjlib_test" /><h3>pjlib_test</h3><table><tr id="pjlib_testHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjlib_test 未记录任何消息。
+                  </td></tr></table><a name="pjlib_util" /><h3>pjlib_util</h3><table><tr id="pjlib_utilHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjlib_util 未记录任何消息。
+                  </td></tr></table><a name="pjlib_util_test" /><h3>pjlib_util_test</h3><table><tr id="pjlib_util_testHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjlib_util_test 未记录任何消息。
+                  </td></tr></table><a name="pjmedia" /><h3>pjmedia</h3><table><tr id="pjmediaHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjmedia 未记录任何消息。
+                  </td></tr></table><a name="pjmedia_audiodev" /><h3>pjmedia_audiodev</h3><table><tr id="pjmedia_audiodevHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjmedia_audiodev 未记录任何消息。
+                  </td></tr></table><a name="pjmedia_codec" /><h3>pjmedia_codec</h3><table><tr id="pjmedia_codecHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjmedia_codec 未记录任何消息。
+                  </td></tr></table><a name="pjmedia_test" /><h3>pjmedia_test</h3><table><tr id="pjmedia_testHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjmedia_test 未记录任何消息。
+                  </td></tr></table><a name="pjmedia_videodev" /><h3>pjmedia_videodev</h3><table><tr id="pjmedia_videodevHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjmedia_videodev 未记录任何消息。
+                  </td></tr></table><a name="pjnath" /><h3>pjnath</h3><table><tr id="pjnathHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjnath 未记录任何消息。
+                  </td></tr></table><a name="pjnath_test" /><h3>pjnath_test</h3><table><tr id="pjnath_testHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjnath_test 未记录任何消息。
+                  </td></tr></table><a name="pjsip_core" /><h3>pjsip_core</h3><table><tr id="pjsip_coreHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsip_core 未记录任何消息。
+                  </td></tr></table><a name="pjsip_simple" /><h3>pjsip_simple</h3><table><tr id="pjsip_simpleHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsip_simple 未记录任何消息。
+                  </td></tr></table><a name="pjsip_test" /><h3>pjsip_test</h3><table><tr id="pjsip_testHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsip_test 未记录任何消息。
+                  </td></tr></table><a name="pjsip_ua" /><h3>pjsip_ua</h3><table><tr id="pjsip_uaHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsip_ua 未记录任何消息。
+                  </td></tr></table><a name="pjsua" /><h3>pjsua</h3><table><tr id="pjsuaHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua 未记录任何消息。
+                  </td></tr></table><a name="pjsua_cli_shared_comp" /><h3>pjsua_cli_shared_comp</h3><table><tr id="pjsua_cli_shared_compHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua_cli_shared_comp 未记录任何消息。
+                  </td></tr></table><a name="pjsua_cli_uwp" /><h3>pjsua_cli_uwp</h3><table><tr id="pjsua_cli_uwpHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua_cli_uwp 未记录任何消息。
+                  </td></tr></table><a name="pjsua_cli_uwp_comp" /><h3>pjsua_cli_uwp_comp</h3><table><tr id="pjsua_cli_uwp_compHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua_cli_uwp_comp 未记录任何消息。
+                  </td></tr></table><a name="pjsua_cli_wp8_comp" /><h3>pjsua_cli_wp8_comp</h3><table><tr id="pjsua_cli_wp8_compHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua_cli_wp8_comp 未记录任何消息。
+                  </td></tr></table><a name="pjsua_lib" /><h3>pjsua_lib</h3><table><tr id="pjsua_libHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua_lib 未记录任何消息。
+                  </td></tr></table><a name="pjsua_winrt_cli" /><h3>pjsua_winrt_cli</h3><table><tr id="pjsua_winrt_cliHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua_winrt_cli 未记录任何消息。
+                  </td></tr></table><a name="pjsua_winrt_gui" /><h3>pjsua_winrt_gui</h3><table><tr id="pjsua_winrt_guiHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua_winrt_gui 未记录任何消息。
+                  </td></tr></table><a name="pjsua2_lib" /><h3>pjsua2_lib</h3><table><tr id="pjsua2_libHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsua2_lib 未记录任何消息。
+                  </td></tr></table><a name="pjsystest" /><h3>pjsystest</h3><table><tr id="pjsystestHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pjsystest 未记录任何消息。
+                  </td></tr></table><a name="python_pjsua" /><h3>python_pjsua</h3><table><tr id="python_pjsuaHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">python_pjsua 未记录任何消息。
+                  </td></tr></table><a name="sample_debug" /><h3>sample_debug</h3><table><tr id="sample_debugHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">sample_debug 未记录任何消息。
+                  </td></tr></table><a name="samples" /><h3>samples</h3><table><tr id="samplesHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">samples 未记录任何消息。
+                  </td></tr></table><a name="Solution Items" /><h3>Solution Items</h3><table><tr id="Solution ItemsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">Solution Items 未记录任何消息。
+                  </td></tr></table><a name="swig_java_pjsua2" /><h3>swig_java_pjsua2</h3><table><tr id="swig_java_pjsua2HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">swig_java_pjsua2 未记录任何消息。
+                  </td></tr></table><a name="uwp" /><h3>uwp</h3><table><tr id="uwpHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">uwp 未记录任何消息。
+                  </td></tr></table><a name="Voip" /><h3>Voip</h3><table><tr id="VoipHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">Voip 未记录任何消息。
+                  </td></tr></table><a name="VoipBackEnd" /><h3>VoipBackEnd</h3><table><tr id="VoipBackEndHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">VoipBackEnd 未记录任何消息。
+                  </td></tr></table><a name="VoipHost" /><h3>VoipHost</h3><table><tr id="VoipHostHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">VoipHost 未记录任何消息。
+                  </td></tr></table><a name="VoipTasks" /><h3>VoipTasks</h3><table><tr id="VoipTasksHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">VoipTasks 未记录任何消息。
+                  </td></tr></table><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">解决方案</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          显示 1 其他消息
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>pjproject-vs14.sln:
+        </strong><span>解决方案文件不需要迁移。</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          隐藏 1 其他消息
+        </a></td></tr></table></div></div></body></html>

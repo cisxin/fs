@@ -1,0 +1,49 @@
+﻿  auddemo.c
+  aectest.c
+  aviplay.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  clidemo.c
+  confsample.c
+  confbench.c
+  encdec.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  httpdemo.c
+  icedemo.c
+  jbsim.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  latency.c
+  level.c
+  mix.c
+  pcaputil.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  pjsip-perf.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  playfile.c
+  playsine.c
+  recfile.c
+  resampleplay.c
+  simpleua.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  simple_pjsua.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+..\src\samples\simple_pjsua.c(184): warning C4100: “acc_id”: 未引用的形参
+..\src\samples\simple_pjsua.c(426): warning C4456: “fp”的声明隐藏了上一个本地声明
+  ..\src\samples\simple_pjsua.c(396): note: 参见“fp”的声明
+..\src\samples\simple_pjsua.c(446): warning C4456: “fp”的声明隐藏了上一个本地声明
+  ..\src\samples\simple_pjsua.c(426): note: 参见“fp”的声明
+..\src\samples\simple_pjsua.c(474): warning C4456: “fp”的声明隐藏了上一个本地声明
+  ..\src\samples\simple_pjsua.c(396): note: 参见“fp”的声明
+  sipecho.c
+  siprtp.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+..\src\samples\siprtp.c(703): warning C4102: “TODO___HANDLE_FORKING”: 未引用的标签
+  sipstateless.c
+  stateful_proxy.c
+  stateless_proxy.c
+  stereotest.c
+  streamutil.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  strerror.c
+  tonegen.c
+  vid_streamutil.c
+D:\MyWork\pjproject-2.8\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失

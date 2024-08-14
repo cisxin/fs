@@ -1,0 +1,20 @@
+﻿  account.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  call.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  endpoint.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  json.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  media.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  persistent.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  presence.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  siptypes.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  types.cpp
+d:\mywork\pjproject-2.8\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  pjsua2_lib.vcxproj -> D:\MyWork\pjproject-2.8\pjsip\build\..\lib\pjsua2-lib-i386-Win32-vc14-Release.lib

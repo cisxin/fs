@@ -1,0 +1,33 @@
+﻿  sip_auth_aka.c
+  sip_auth_client.c
+d:\mywork\pjproject-2.8\pjsip\src\pjsip\sip_auth_client.c(550): warning C4102: “TODO___FULL_CLONE_OF_AUTH_CLIENT_SESSION”: 未引用的标签
+  sip_auth_msg.c
+  sip_auth_parser.c
+  sip_auth_server.c
+  sip_config.c
+  sip_dialog.c
+d:\mywork\pjproject-2.8\pjsip\src\pjsip\sip_dialog.c(545): warning C4102: “TODO___DIALOG_APP_TIMER”: 未引用的标签
+  sip_endpoint.c
+  sip_errno.c
+  sip_msg.c
+  sip_multipart.c
+  sip_parser.c
+  sip_resolve.c
+d:\mywork\pjproject-2.8\pjsip\src\pjsip\sip_resolve.c(403): warning C4102: “TODO___SUPPORT_DNS_NAPTR”: 未引用的标签
+  sip_tel_uri.c
+  sip_transaction.c
+  sip_transport.c
+  sip_transport_loop.c
+  sip_transport_tcp.c
+  sip_transport_tls.c
+  sip_transport_udp.c
+  正在生成代码...
+  正在编译...
+  sip_ua_layer.c
+  sip_uri.c
+  sip_util.c
+d:\mywork\pjproject-2.8\pjsip\src\pjsip\sip_util.c(868): warning C4102: “TODO___SUPPORT_REQUEST_ADDR_RESOLUTION_FOR_TEL_URI”: 未引用的标签
+  sip_util_proxy.c
+  sip_util_statefull.c
+  正在生成代码...
+  pjsip_core.vcxproj -> D:\MyWork\pjproject-2.8\pjsip\build\..\lib\pjsip-core-i386-Win32-vc14-Release.lib
